@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: cursive;
+	text-align: center;
+	background: #FFD9C0;
+	position: relative;
+	width: 360px;
+	margin: 0 auto;
+	user-select: none;
+}
+h2{
+	text-decoration: underline;
+}
+.keyboard{
+	border: 1px solid #1B2430;
+}
+.keyboard button{
+	width: 100px;
+	height: 52px;
+	margin: 4px;
+	background: #FFAE6D;
+	font-weight: bold;
+}
+
+.pressed{
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+	opacity: 0.5;
+}
+
+p{
+	font-size: 14.5px;
+}
+p a{
+	text-decoration: none;
+}
